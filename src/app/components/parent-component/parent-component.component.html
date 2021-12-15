@@ -1,0 +1,16 @@
+<h1>Parent</h1>
+<div>
+  <p>
+    Value: <strong>{{ hello }}</strong>
+  </p>
+  <p>
+    Value from Child: <strong>{{ goodbye }}</strong>
+  </p>
+</div>
+
+<div id="child-container">
+  <app-child-component
+    [helloState]="hello"
+    (sendGoodbye)="childGoodbye($event)"
+  ></app-child-component>
+</div>
