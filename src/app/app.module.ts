@@ -8,8 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
-import { ParentComponentComponent } from './components/parent-component/parent-component.component';
-import { ChildComponentComponent } from './components/child-component/child-component.component';
+import { ParentComponentComponent } from './components/InputOuputPOC/parent-component/parent-component.component';
+import { ChildComponentComponent } from './components/InputOuputPOC/child-component/child-component.component';
 
 @NgModule({
   declarations: [
