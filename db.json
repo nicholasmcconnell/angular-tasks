@@ -17,6 +17,18 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": true
+    },
+    {
+      "text": "walk dog",
+      "day": "today",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Hug Mariana",
+      "day": "Today and everyday",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

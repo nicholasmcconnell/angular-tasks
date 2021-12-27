@@ -11,6 +11,8 @@ import { Task } from '../../Task';
 export class TasksComponent implements OnInit {
 
   tasks: Task[] = [];
+  task!: Task;
+  newTask!: Task;
 
   constructor(private taskService: TaskService) { }
 
@@ -27,5 +29,10 @@ export class TasksComponent implements OnInit {
   toggleReminder(task: Task) {
     task.reminder = !task.reminder;
     this.taskService.updateTaskReminder(task).subscribe()
+  }
+
+  addTask(task: Task) {
+    console.log(task)
+    this.taskService.addTask(task).subscribe((task) => this.tasks.push(task));
   }
 }
