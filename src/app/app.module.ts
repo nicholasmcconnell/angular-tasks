@@ -10,6 +10,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { ParentComponentComponent } from './components/InputOuputPOC/parent-component/parent-component.component';
 import { ChildComponentComponent } from './components/InputOuputPOC/child-component/child-component.component';
+import { AddTaskComponent } from './components/add-task/add-task.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ChildComponentComponent } from './components/InputOuputPOC/child-compon
     TasksComponent,
     TaskItemComponent,
     ParentComponentComponent,
-    ChildComponentComponent
+    ChildComponentComponent,
+    AddTaskComponent
   ],
   imports: [
     BrowserModule,
